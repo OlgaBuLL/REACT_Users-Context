@@ -1,0 +1,37 @@
+@import "../../App.sass"
+
+.footer
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 1.5rem
+    min-height: 10vh
+    padding: 1rem 0
+    & hr
+        margin: 0 auto
+        width: 60%
+        height: 1px
+        background: $accent-color
+        border: none
+    &__info
+
+        & p
+            color: $dark-color
+            text-align: center
+            margin-bottom: 1rem
+    &__contacts
+        display: flex
+        gap: 2rem
+        & a
+            color: $dark-color
+            font-size: 1.5rem
+            transition: 0.4s ease
+            &:hover
+                color: $accent-color
+                filter: drop-shadow(1px 1px 1px #000)
+                transform: translateY(-2px)

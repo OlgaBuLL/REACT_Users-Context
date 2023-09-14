@@ -1,0 +1,43 @@
+@import "../../App.sass"
+
+.home
+    margin: 3rem auto
+    max-width: fit-content
+    display: flex
+    gap: 1.3rem
+    border: 1px solid $dark-color
+    border-radius: 0.2rem
+    padding: 1rem 1.3rem
+
+.left-wrapper
+    width: 35%
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    border: 1px solid
+    border-radius: inherit
+    padding: 0.3rem
+    & legend
+        font-size: $font-size
+    & hr
+        align-self: center
+        width: 90%
+        height: 1px
+        border: none
+.right-wrapper
+    width: 65%
+    max-height: 310px
+    overflow-x: auto
+    &::-webkit-scrollbar
+        width: 7px
+    &::-webkit-scrollbar-thumb
+        background: $accent-color
+        border-radius: 1px
+
+@media screen and ( max-width: 800px )
+    .home
+        flex-direction: column
+    .left-wrapper
+        width: 100%
+    .right-wrapper
+        width: 100%

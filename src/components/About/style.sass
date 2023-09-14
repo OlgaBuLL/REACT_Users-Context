@@ -1,0 +1,29 @@
+@import "../../App.sass"
+
+.about
+    &__title
+        margin: 3rem 0
+        color: $accent-color
+        text-transform: uppercase
+        text-align: center
+    &__info
+        margin: 0 auto
+        max-width: 500px
+        color: $light-color
+        font-weight: lighter
+        padding-bottom: 2rem
+        & li
+            margin-bottom: 10px
+            padding-left: 10px
+            &::marker
+                color: $accent-color
+                content: "✔"
+                font-weight: bold
+            & span
+                font-weight: bold
+
+@media all and (max-width : 900px)
+
+    .about
+        &__info
+            max-width: 280px
