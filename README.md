@@ -1,12 +1,12 @@
-<h1 align="center">Tickets</h1>
+<h1 align="center">🙋🏻‍♂️ USERS</h1>
 <h2>About The Project</h2>
 
-✔ Ability to add and delete new user    
-✔ The users's data is stored in LocalStorage , so the info won't disappear after reloading the page    
-✔ Sorting the table data according to the column title: "Name", "Age", "Subscription", "Employment"    
-✔ If there is no data left in the table, the corresponding inscription "Table is empty" will be displayed on the screen    
-✔ Ability to toggle the app's appearance from "Dark mode" to "Light mode"    
-✔ Routing
+✔ Ability to **`add`** and **delete** new user    
+✔ The users's data is stored in **`LocalStorage`**, so the info won't disappear after reloading the page    
+✔ **`Sorting`** the table data according to the column title: **`"Name"`**, **`"Age"`**, **`"Subscription"`**, **`"Employment"`**    
+✔ If there is no data left in the table, the corresponding inscription **`"Table is empty"`** will be displayed on the screen    
+✔ Ability to toggle the app's appearance from **`"Dark mode"`** to **`"Light mode"`**   
+✔ **`Routing`**
 
 
 
@@ -27,15 +27,15 @@
 
 <h2>Stack:</h2>
 
-✔ React    
-✔ React-Router    
-✔ useContext    
-✔ SASS      
-✔ Java Script     
-✔ Grid    
-✔ Flex    
-✔ LocalStorage    
-✔ semantic and adaptive layout      
+✔ `React`    
+✔ `React-Router`    
+✔ `useContext`    
+✔ `SASS`      
+✔ `Java Script`     
+✔ `Grid`    
+✔ `Flex`    
+✔ `LocalStorage`    
+✔ `semantic and adaptive layout`      
 
 
 ## Available Scripts
