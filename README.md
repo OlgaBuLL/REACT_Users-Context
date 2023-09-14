@@ -3,7 +3,7 @@
 
 ## About The Project
 
-✔ Ability to **`add`** and **delete** new user    
+✔ Ability to **`add`** and **`delete`** new user    
 ✔ The users's data is stored in **`LocalStorage`**, so the info won't disappear after reloading the page    
 ✔ **`Sorting`** the table data according to the column title: **`"Name"`**, **`"Age"`**, **`"Subscription"`**, **`"Employment"`**    
 ✔ If there is no data left in the table, the corresponding inscription **`"Table is empty"`** will be displayed on the screen    
